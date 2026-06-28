@@ -55,6 +55,8 @@
     
       <link rel="stylesheet" href="stylesheets/focus.css">
     
+      <link rel="stylesheet" href="stylesheets/bidi.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -412,14 +414,14 @@
   
   
     <li class="md-nav__item">
-      <a href="caso-di-studio-con-oracle-database-express-edition-11g-release-2.html" class="md-nav__link">
+      <a href="caso-di-studio-con--oracle-database-express-edition-11g-release-2.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Caso di studio con Oracle Database Express Edition 11g Release 2
+    5. Caso di studio con  Oracle Database Express Edition 11g Release 2
   
 
     
@@ -439,14 +441,14 @@
   
   
     <li class="md-nav__item">
-      <a href="caso-di-studio-con-postgresql-921.html" class="md-nav__link">
+      <a href="caso-di-studio-con--postgresql-921.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Caso di studio con PostgreSQL 9.2.1
+    6. Caso di studio con  PostgreSQL 9.2.1
   
 
     
@@ -535,13 +537,13 @@
 
   <h1>Benvenuti</h1>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000C8000000E930F662D2.png" width="100" height="117" style="display:inline-block; margin:4px;width:2.646cm;height:3.083cm;" class="odt-zoomable" data-zoom-src="images/10000000000000C8000000E930F662D2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000C8000000E90F858128.png" width="100" height="117" style="display:inline-block; margin:4px;width:2.646cm;height:3.083cm;" class="odt-zoomable" data-zoom-src="images/10000000000000C8000000E90F858128.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000C8000000E930F662D2.png" width="100" height="117" style="display:inline-block; margin:4px;width:2.646cm;height:3.083cm;" class="odt-zoomable" data-zoom-src="images/10000000000000C8000000E930F662D2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000C8000000E90F858128.png" width="100" height="117" style="display:inline-block; margin:4px;width:2.646cm;height:3.083cm;" class="odt-zoomable" data-zoom-src="images/10000000000000C8000000E90F858128.png" /></td></tr></table>
 
-<p style="font-size: 28px; font-weight: bold; margin-bottom: 1em; line-height: 1.2; color: #2c3e50;">Introduzione a Entity Framework 5 Code First attraverso esempi</p>
+<p style="font-size: 28px; font-weight: bold; margin-bottom: 1em; line-height: 1.2; color: #000000;">Introduzione con esempi pratici a Entity Framework 5 Code First</p>
 
 <p><strong>Serge Tahé</strong>, ottobre 2012</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p>Il presente documento è una traduzione della <a href="https://stahe.github.io/en-ef5cf-oct-2012/"><u><span style="color: #0563c1">versione originale in inglese</span></u></a>, generata tramite <a href="https://www.deepl.com/"><u><span style="color: #0563c1">uno strumento automatizzato</span></u></a>. Alcune espressioni o termini tecnici potrebbero non rispecchiare appieno il significato originale.</p>
+<p>Il presente documento è una traduzione della <a href="https://stahe.github.io/ef5cf-oct-2012/"><u><span style="color: #0563c1">versione francese</span></u></a>, generata tramite <a href="https://www.deepl.com/"><u><span style="color: #0563c1">uno strumento automatizzato</span></u></a>. Alcune espressioni o termini tecnici potrebbero non rispecchiare appieno il significato originale.</p>
 <p><a href="https://stahe.github.io/en-word-odt-vers-html-janv-2026/"><u><span style="color: #0563c1">Questo sito è stato creato utilizzando il convertitore [Word o ODT -&gt; HTML] sviluppato dai sistemi di IA Gemini 3 e ChatGPT 5.2 nel gennaio 2026</span></u></a>.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
@@ -551,6 +553,7 @@
 <li>[<a href="https://stahe.github.io/it-java-sept-1998/"><u><span style="color: #0563c1">Introduzione al linguaggio Java (1998)</span></u></a>];</li>
 <li>[<a href="https://stahe.github.io/it-servlets-java-juin-2002/"><u><span style="color: #0563c1">Introduzione alla programmazione web in Java con Servlet e pagine JSP (2002)</span></u></a>];</li>
 <li>[<a href="https://stahe.github.io/it-struts1x-dec-2003/"><u><span style="color: #0563c1">Introduzione a Struts 1.x attraverso esempi (2003)</span></u></a>];</li>
+<li>[<a href="https://stahe.github.io/it-java-web3tier-mars-2005/">Architetture a tre livelli e architetture MVC con Struts, Spring e Java (2005)</a>];</li>
 <li>[<a href="https://stahe.github.io/it-java-web-mvc-mai-2006/"><u><span style="color: #0563c1">Nozioni di base sullo sviluppo Web MVC in Java attraverso esempi (2006)</span></u></a>];</li>
 <li>[<a href="https://stahe.github.io/it-jpa-juin-2007/"><u><span style="color: #0563c1">Persistenza in Java 5 attraverso la pratica (2007)</span></u></a>];</li>
 <li>[<a href="https://stahe.github.io/it-webservice-netbeans-glassfish-fev-2009/"><u><span style="color: #0563c1">Creazione di un servizio Web Java EE con l&#x27;IDE NetBeans 6.5 e il server Java EE GlassFish (2009)</span></u></a>];</li>
@@ -588,6 +591,7 @@
 </ul>
 <p><u><strong>PHP</strong></u></p>
 <ul>
+<li>[<a href="https://stahe.github.io/it-progphp-nov-2002/">Introduzione alla programmazione web in PHP4 (2002)</a>];</li>
 <li>[<a href="https://stahe.github.io/it-php4mvc-janvier-2004/"><u><span style="color: #0563c1">Metodologia di sviluppo MVC per un&#x27;applicazione web in PHP4 (2004)</span></u></a>];</li>
 <li>[<a href="https://stahe.github.io/it-php5-juillet-2011/"><u><span style="color: #0563c1">Introduzione al linguaggio PHP5 attraverso esempi (2011)</span></u></a>];</li>
 <li>[<a href="https://stahe.github.io/it-php7-juillet-2019/"><u><span style="color: #0563c1">Introduzione al linguaggio PHP7 attraverso esempi (2019)</span></u></a>];</li>

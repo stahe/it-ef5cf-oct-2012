@@ -1,4 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // --- BiDi document metadata (V907) ---
+  var ODT_BIDI_ENABLED = false;
+  var ODT_BIDI_DIR = "ltr";
+  var ODT_BIDI_LANG = "de";
+  if (ODT_BIDI_ENABLED) {
+    if (ODT_BIDI_DIR) document.documentElement.setAttribute("dir", ODT_BIDI_DIR);
+    if (ODT_BIDI_LANG) document.documentElement.setAttribute("lang", ODT_BIDI_LANG);
+    document.body.classList.add(ODT_BIDI_DIR === "rtl" ? "odt-rtl" : "odt-ltr");
+  }
   // --- Focus toggle button (existing feature) ---
   if (!document.querySelector(".focus-toggle-btn")) {
     var btn = document.createElement("label");
